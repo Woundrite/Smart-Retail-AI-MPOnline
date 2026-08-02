@@ -1,0 +1,20 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Trained model artifacts (regenerate via notebooks/) and logs — keep the repo light
+app/models/*.h5
+app/models/*.pkl
+app/models/*.jsonl
+!app/models/.gitkeep
+
+# Local face photos (never commit real customer photos)
+data/faces/*/
+!data/faces/.gitkeep
+
+# Synthetic/generated product images
+data/product_images/
+
+.env

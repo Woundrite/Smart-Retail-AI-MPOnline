@@ -1,0 +1,129 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "good morning", "good afternoon", "is anyone there"],
+      "responses": ["Hi there! How can I help you today?", "Hello! Welcome to our store — what can I do for you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "talk to you soon"],
+      "responses": ["Goodbye! Have a great day.", "Thanks for stopping by — see you again soon!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "that helps", "appreciate it"],
+      "responses": ["You're welcome!", "Happy to help!"]
+    },
+    {
+      "tag": "order_status",
+      "patterns": ["where is my order", "track my order", "order status", "has my order shipped", "when will my order arrive"],
+      "responses": ["You can track your order status from the 'My Orders' section of your account, or share your order ID and I'll check for you."]
+    },
+    {
+      "tag": "return_policy",
+      "patterns": ["what is your return policy", "can i return an item", "how do returns work", "refund policy"],
+      "responses": ["Items can be returned within 30 days of delivery in original condition for a full refund. Just start a return from 'My Orders'."]
+    },
+    {
+      "tag": "exchange_policy",
+      "patterns": ["can i exchange an item", "how do i exchange for a different size", "exchange policy"],
+      "responses": ["Exchanges are free within 15 days of delivery — select 'Exchange' instead of 'Return' from your order details page."]
+    },
+    {
+      "tag": "store_hours",
+      "patterns": ["what are your store hours", "when do you open", "when do you close", "are you open today"],
+      "responses": ["Our stores are open Monday to Saturday, 10 AM to 9 PM, and Sunday 11 AM to 7 PM."]
+    },
+    {
+      "tag": "store_location",
+      "patterns": ["where is your store located", "store address", "nearest store", "do you have a store near me"],
+      "responses": ["You can find your nearest store using the store locator on our homepage — just enter your pin code."]
+    },
+    {
+      "tag": "payment_methods",
+      "patterns": ["what payment methods do you accept", "can i pay with cash on delivery", "do you accept credit cards"],
+      "responses": ["We accept all major credit/debit cards, UPI, net banking, and cash on delivery for eligible orders."]
+    },
+    {
+      "tag": "shipping_cost",
+      "patterns": ["how much is shipping", "is delivery free", "shipping charges"],
+      "responses": ["Shipping is free on orders above ₹499; a flat ₹49 fee applies below that."]
+    },
+    {
+      "tag": "delivery_time",
+      "patterns": ["how long does delivery take", "delivery time", "how many days for shipping"],
+      "responses": ["Standard delivery takes 3-5 business days; express delivery (where available) takes 1-2 days."]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["how do i cancel my order", "cancel order", "i want to cancel my purchase"],
+      "responses": ["You can cancel an order from 'My Orders' as long as it hasn't shipped yet."]
+    },
+    {
+      "tag": "product_availability",
+      "patterns": ["is this product in stock", "when will this be back in stock", "product availability"],
+      "responses": ["You can check live stock on the product page, or click 'Notify Me' to get an alert when it's back."]
+    },
+    {
+      "tag": "product_sizing",
+      "patterns": ["what size should i order", "size chart", "does this run small or large"],
+      "responses": ["Check the 'Size Guide' link on the product page — most of our clothing runs true to size."]
+    },
+    {
+      "tag": "discount_coupon",
+      "patterns": ["do you have any discount codes", "coupon code", "any offers right now", "promo code"],
+      "responses": ["Check the 'Offers' tab for current promotions — new customers also get 10% off their first order."]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": ["do you have a loyalty program", "rewards points", "membership benefits"],
+      "responses": ["Yes! Our loyalty program gives you points on every purchase, redeemable for discounts — enroll for free in your account settings."]
+    },
+    {
+      "tag": "account_help",
+      "patterns": ["i forgot my password", "how do i reset my password", "can't log in to my account"],
+      "responses": ["Click 'Forgot Password' on the login page and we'll email you a reset link."]
+    },
+    {
+      "tag": "warranty",
+      "patterns": ["does this product have a warranty", "warranty period", "what if it breaks"],
+      "responses": ["Electronics come with a standard 1-year manufacturer warranty — details are listed on the product page."]
+    },
+    {
+      "tag": "damaged_item",
+      "patterns": ["i received a damaged item", "my order arrived broken", "defective product"],
+      "responses": ["We're sorry to hear that! Please raise a replacement request within 48 hours of delivery with a photo of the damage."]
+    },
+    {
+      "tag": "contact_support",
+      "patterns": ["how do i contact customer support", "talk to a human", "customer care number"],
+      "responses": ["You can reach our support team at support@example.com or call 1800-000-0000, 9 AM to 9 PM daily."]
+    },
+    {
+      "tag": "bulk_order",
+      "patterns": ["can i place a bulk order", "corporate gifting", "wholesale pricing"],
+      "responses": ["For bulk or corporate orders, please email bulk-orders@example.com with your requirements for a custom quote."]
+    },
+    {
+      "tag": "invoice_request",
+      "patterns": ["can i get a gst invoice", "i need an invoice for my order", "billing invoice"],
+      "responses": ["A GST invoice is auto-generated and available for download from 'My Orders' once your order ships."]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": ["can you recommend a product", "what do you suggest", "best seller"],
+      "responses": ["Sure! Tell me the category you're interested in — e.g. shoes, electronics, or clothing — and I'll point you to our best sellers."]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["i want to leave feedback", "how do i review a product", "submit a complaint"],
+      "responses": ["You can leave a product review from 'My Orders', or share your feedback here and I'll log it for our team."]
+    },
+    {
+      "tag": "chatbot_capability",
+      "patterns": ["what can you help me with", "what do you do", "how does this chatbot work"],
+      "responses": ["I can help with order tracking, returns/exchanges, store info, payments, and general product questions!"]
+    }
+  ]
+}
