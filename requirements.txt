@@ -28,4 +28,4 @@ pytest==8.2.2
 httpx==0.27.0
 
 # --- Dev / misc ---
-python-dotenv==1.0.1
+python-dotenv==1.2.2
